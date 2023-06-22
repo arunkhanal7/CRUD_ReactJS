@@ -46,21 +46,21 @@ fetch("http://localhost:8000/employee",{
           <div className="col-lg-12">
             <div className="form-group">
               <label>Name</label>
-              <input value={name} onChange={(e)=>{setName(e.target.value)}} className="form-control"></input>
+              <input required value={name} onChange={(e)=>{setName(e.target.value)}} className="form-control"></input>
             </div>
           </div>
 
           <div className="col-lg-12">
             <div className="form-group">
               <label>Email</label>
-              <input value={email} onChange={(e)=>{setEmail(e.target.value)}} className="form-control"></input>
+              <input required value={email} onChange={(e)=>{setEmail(e.target.value)}} className="form-control"></input>
             </div>
           </div>
 
           <div className="col-lg-12">
             <div className="form-group">
               <label>Mobile</label>
-              <input value={phone} onChange={(e)=>{setPhone(e.target.value)}} className="form-control"></input>
+              <input required value={phone} onChange={(e)=>{setPhone(e.target.value)}} className="form-control"></input>
             </div>
           </div>
 
